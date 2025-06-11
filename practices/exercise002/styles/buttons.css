@@ -1,0 +1,35 @@
+/* styles/buttons.css */
+.button-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #0055A4;
+  border-radius: 4px;
+  background: white;
+  color: #0055A4;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.btn:hover {
+  background: #0055A4;
+  color: white;
+}
+
+.btn:focus {
+  outline: 4px solid rgba(0,85,164,0.3);
+}
